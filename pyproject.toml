@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rag-cybersecurity"
+version = "0.1.0"
+description = ""
+authors = ["abhinavxkashyap <98159308+abhinavxkashyap@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+langchain = "^0.3.7"
+langgraph = "^0.2.45"
+chromadb = "^0.5.18"
+pymongo = "^4.10.1"
+openai = "^1.54.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
